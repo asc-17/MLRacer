@@ -1,0 +1,7 @@
+mediapipe>=1.2
+# mediapipe brings opencv-contrib-python; don't also install opencv-python (both provide cv2)
+opencv-contrib-python>=4.10
+numpy
+Pillow>=10
+requests>=2.31
+pytest>=8          # only needed to run the tests

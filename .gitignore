@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# per-PC app settings
+gesture_control/settings.json
+
+# downloaded by setup.bat
+gesture_control/models/*.task
+
+# Arduino build output
+build/
